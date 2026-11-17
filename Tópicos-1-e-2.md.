@@ -1,0 +1,35 @@
+Pontes Sem Gargalos
+
+1. Visão geral do projeto
+
+Contexto e problema
+
+A mobilidade urbana no Recife enfrenta dificuldades relacionadas aos congestionamentos nas pontes e em suas vias de acesso. Essas situações afetam pessoas que utilizam esses trajetos diariamente, provocando atrasos e dificultando o planejamento dos deslocamentos.
+
+Um dos problemas é a dificuldade de identificar os pontos mais críticos de circulação e encontrar informações organizadas sobre possíveis alternativas de trajeto.
+
+Usuário principal
+
+Pessoas que utilizam diariamente as pontes do Recife para se deslocar, principalmente motoristas.
+
+Objetivo
+
+Desenvolver um sistema que permita identificar e visualizar os principais pontos de congestionamento nas pontes do Recife, apresentando informações sobre esses locais e possíveis rotas alternativas previamente cadastradas, para auxiliar os usuários no planejamento de seus deslocamentos.
+
+Recorte
+
+A primeira versão do sistema será voltada à consulta de pontes cadastradas, identificação de pontos críticos de congestionamento e visualização de possíveis rotas alternativas previamente registradas. Não haverá monitoramento do trânsito em tempo real nem cálculo automático de rotas nesta versão.
+
+2. História de usuário e esclarecimentos
+
+História de usuário
+
+Como pessoa que utiliza as pontes do Recife diariamente, quero consultar os pontos de congestionamento e visualizar possíveis rotas alternativas, para conseguir planejar melhor meus deslocamentos e evitar, quando possível, os locais com maior dificuldade de circulação.
+
+Perguntas de esclarecimento
+
+* Quem utilizará o sistema? Pessoas que utilizam as pontes do Recife, principalmente motoristas.
+* Quais informações serão apresentadas? Pontes cadastradas, pontos de congestionamento, localização e descrição dos problemas.
+* O sistema apresentará rotas alternativas? Sim, desde que estejam previamente cadastradas.
+* O sistema terá informações em tempo real? Não na primeira versão.
+* Como serão identificados os pontos de congestionamento? Por meio de informações previamente cadastradas no sistema.
