@@ -33,3 +33,132 @@ Perguntas de esclarecimento
 * O sistema apresentará rotas alternativas? Sim, desde que estejam previamente cadastradas.
 * O sistema terá informações em tempo real? Não na primeira versão.
 * Como serão identificados os pontos de congestionamento? Por meio de informações previamente cadastradas no sistema.
+. Requisitos funcionais
+
+Os requisitos funcionais descrevem as principais ações que o sistema Pontes Sem Gargalos deverá realizar. A primeira versão será voltada à consulta de pontes cadastradas, identificação dos pontos críticos de congestionamento e visualização de possíveis rotas alternativas previamente registradas.
+
+ID
+
+Comportamento esperado
+
+Entrada e saída
+
+Regras
+
+Prioridade
+
+RF01
+
+Exibir a lista de pontes cadastradas no sistema.
+
+Entrada: solicitação de consulta às pontes. Saída: lista de pontes disponíveis.
+
+RN01
+
+Essencial
+
+RF02
+
+Permitir que o usuário selecione uma ponte para consultar suas informações.
+
+Entrada: seleção de uma ponte cadastrada. Saída: identificação da ponte selecionada e suas informações.
+
+RN01 e RN02
+
+Essencial
+
+RF03
+
+Exibir os pontos críticos de congestionamento relacionados à ponte selecionada.
+
+Entrada: ponte selecionada. Saída: lista dos pontos críticos previamente cadastrados.
+
+RN02 e RN03
+
+Essencial
+
+RF04
+
+Apresentar a localização e a descrição dos problemas de circulação identificados em cada ponto crítico.
+
+Entrada: seleção de um ponto de congestionamento. Saída: localização e descrição do problema.
+
+RN03
+
+Essencial
+
+RF05
+
+Exibir possíveis rotas alternativas previamente cadastradas para os pontos de congestionamento.
+
+Entrada: consulta ao ponto crítico selecionado. Saída: lista de possíveis rotas alternativas disponíveis.
+
+RN04
+
+Essencial
+
+RF06
+
+Apresentar informações sobre as rotas alternativas cadastradas.
+
+Entrada: seleção de uma rota alternativa. Saída: informações e descrição da alternativa disponível.
+
+RN04 e RN05
+
+Essencial
+
+RF07
+
+Informar ao usuário quando não houver pontos críticos ou rotas alternativas cadastradas para a consulta realizada.
+
+Entrada: consulta sem informações disponíveis. Saída: mensagem informando a ausência de dados cadastrados.
+
+RN06
+
+Essencial
+
+4. Requisitos não funcionais
+
+Os requisitos não funcionais estabelecem condições de qualidade e utilização do sistema, garantindo que as informações sejam apresentadas de maneira clara, organizada e acessível ao usuário.
+
+ID
+
+Condição exigida
+
+Como conferir
+
+RNF01
+
+Os nomes das pontes, descrições, orientações e mensagens do sistema devem estar apresentados em português.
+
+Percorrer as telas do sistema e verificar os textos apresentados.
+
+RNF02
+
+As informações sobre os pontos de congestionamento devem ser organizadas de maneira clara e objetiva, facilitando a compreensão do usuário.
+
+Consultar uma ponte e verificar se a localização e a descrição dos problemas estão facilmente identificáveis.
+
+RNF03
+
+A navegação entre a lista de pontes, os pontos críticos e as rotas alternativas deve ser simples e intuitiva.
+
+Realizar o fluxo de consulta e verificar se o usuário consegue acessar as informações sem dificuldades.
+
+RNF04
+
+O sistema deve apresentar as informações cadastradas sem exigir monitoramento do trânsito em tempo real.
+
+Realizar consultas e verificar se os dados apresentados correspondem às informações previamente cadastradas.
+
+RNF05
+
+O sistema deve apresentar as informações de localização e descrição de maneira organizada, permitindo que o usuário identifique corretamente os pontos críticos.
+
+Selecionar diferentes pontos cadastrados e conferir a apresentação das respectivas informações.
+
+RNF06
+
+O sistema deve informar claramente quando não houver informações cadastradas para determinada consulta.
+
+Consultar uma ponte ou ponto sem registros e verificar se uma mensagem adequada é apresentada.
